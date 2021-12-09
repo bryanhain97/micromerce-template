@@ -1,13 +1,22 @@
 doctype html
 html
     head
-      title Micromerce Website
-      script(src="https://unpkg.com/react@17/umd/react.development.js" crossorigin)
-      script(src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin)
+      meta(charset="UTF-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0")
       link(rel="stylesheet" href="./styles/styles.css")
+      title Micromerce Website
     head
     body
-      h1 Hello dear people!
+      div(class="app")
+        div(class="navbar")
+          img(id="logo" src="./assets/logo.svg" alt="microverse-logo")
+        div(class="brand-pictures-container")
+          img(class="brand-picture" id="brand-picture1" src="./assets/iStock-1144.jpg" alt="brand-picture")
+          img(class="brand-picture breathe" id="brand-picture2" src="./assets/iStock-1157.jpg" alt="brand-picture2")
+        div(class="text-section")
+          h3 Lorem ipsum dolor sit amet.
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quibusdam libero sed. Blanditiis, debitis exercitationem esse doloribus ut, ratione ab optio repellendus commodi officia alias! Impedit harum assumenda eum quae blanditiis nihil accusamus nobis expedita. Voluptatem, recusandae! Suscipit, accusantium ipsam.
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quibusdam libero sed. Blanditiis, debitis exercitationem esse doloribus ut, ratione ab optio repellendus commodi officia alias! Impedit harum assumenda eum quae blanditiis nihil accusamus nobis expedita. Voluptatem, recusandae! Suscipit, accusantium ipsam.
       script(src="./app.bundle.js/main.js")
     body
 html 

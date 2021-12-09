@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "pug": "pug ./public/index.pug -o ./public -P",
+    "styles": "cd ./public/styles && sass styles.scss ./styles.css",
     "bundle": "npx webpack ./public/App.js -o ./public/app.bundle.js/ --mode development",
     "compile": "npm run pug && npm run bundle"
   },
