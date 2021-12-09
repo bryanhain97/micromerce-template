@@ -1,0 +1,19 @@
+{
+  "name": "micromerce",
+  "version": "1.0.0",
+  "description": "repo to build micromerce template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bryanhain97/micromerce-template.git"
+  },
+  "author": "Bryan Hain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanhain97/micromerce-template/issues"
+  },
+  "homepage": "https://github.com/bryanhain97/micromerce-template#readme"
+}
