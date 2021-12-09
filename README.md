@@ -1,5 +1,11 @@
-### micromerce template
+micromerce template
+---
+**Technologies i used:**
+* Webpack
+* Pug
+* HTML
+* CSS(SCSS)
+* JavaScript(ES6)
 
-This is a template for the micromerce website i created. Bryan Hain
 
 ![micromerce pic](https://github.com/bryanhain97/micromerce-template/blob/master/README.png)
