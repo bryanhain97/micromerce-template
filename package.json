@@ -4,7 +4,9 @@
   "description": "repo to build micromerce template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "npx webpack ./public/App.js -o ./public/app.bundle.js/ --mode development",
+    "pug": "pug ./public/index.pug -o ./public -P"
   },
   "repository": {
     "type": "git",
